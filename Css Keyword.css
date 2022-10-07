@@ -1,0 +1,29 @@
+body {
+    background-image: url("Simple\ 4.jpg");
+}
+
+div.ex1 {
+    background-color: lightsteelblue;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+div.ex2 {
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+#current {
+    color: limegreen;
+    border: 10px solid currentcolor;
+    padding: 15px;
+}
+
+#ins {
+    border: 3px solid orangered;
+}
+
+span {
+    border: inherit;
+}
