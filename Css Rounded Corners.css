@@ -1,0 +1,54 @@
+#corners1 {
+    border-radius: 25px;
+    background: lightgreen;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+
+#corners2 {
+    border-radius: 25px;
+    border: 2px solid lightgreen;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+
+#corners3 {
+    border-radius: 15px 50px 30px 5px;
+    background: lightgray;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+
+
+#corners4 {
+    border-radius: 15px 50px;
+    background: lightgrey;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+
+#corners5 {
+    border-radius: 50px / 15px;
+    background: wheat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+
+
+#corners6 {
+    border-radius: 50%;
+    background: wheat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
