@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selectors Ex</title>
+</head>
+
+<body>
+    <style>
+        /*.center {
+    text-align: center;
+    color: red;
+}*/
+
+        p.center {
+            text-align: center;
+            color: red;
+        }
+
+        p.large {
+            font-size: 300%;
+        }
+
+        
+        * {
+            text-align: center;
+            padding: auto;
+            margin: auto;
+        }
+
+        h2,h3{
+            text-align: center;
+            color: green;
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <h1 class="center">Red and center-aligned heading</h1>
+        <h2>Hello World!</h2>
+        <h3>Smaller heading!</h3>
+        <p class="center">Red and center-aligned paragraph.</p>
+        <p class="center large">This paragraph will be red, center-aligned, and in a large font-size.</p>
+
+    </body>
+
+</html>
