@@ -1,0 +1,10 @@
+body {
+    counter-reset: section;
+    background-color: aliceblue;
+    color:green;
+  }
+  
+  h3::before {
+    counter-increment: section;
+    content: "Section " counter(section) ": ";
+  }
