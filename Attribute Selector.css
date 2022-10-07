@@ -1,0 +1,36 @@
+a[target=_blank] {
+    background-color: yellow;
+  }
+
+  [title~=Picture] {
+    border: 5px solid lightgray;
+  }
+
+  [class|=content] {
+    background: lightgreen;
+  }
+
+  [class^="text"] {
+    background: cadetblue;
+  }
+
+  [class$="Host"] {
+    background: lightsteelblue;
+  }
+
+  [class*="Ca"] {
+    background: orange;
+  }
+
+  input[type=text] {
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: Lightgray;
+  }
+  
+  input[type=button] {
+    width: 120px;
+    margin-left: 35px;
+    display: block;
+  }
