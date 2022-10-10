@@ -2,27 +2,27 @@
     padding: 20px;
     color: white;
   }
-  /* Extra small devices (phones, 600px and down) */
+  /* For Extra small devices */
   @media only screen and (max-width: 600px) {
     .mquery {background: red;}
   }
   
-  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /*For small devices*/
   @media only screen and (min-width: 600px) {
     .mquery {background: green;}
   }
   
-  /* Medium devices (landscape tablets, 768px and up) */
+  /* For medium devices  */
   @media only screen and (min-width: 768px) {
     .mquery {background: blue;}
   } 
   
-  /* Large devices (laptops/desktops, 992px and up) */
+  /* For Large devices  */
   @media only screen and (min-width: 992px) {
     .mquery {background: orange;}
   } 
   
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  /* For Extra large devices  */
   @media only screen and (min-width: 1200px) {
     .mquery {background: pink;}
   }
