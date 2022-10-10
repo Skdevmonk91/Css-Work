@@ -1,0 +1,23 @@
+*{
+    background-color: aliceblue;
+}
+
+ul,span,h4,p{
+   color: green;
+}
+
+li {
+    display: inline;
+  }
+
+  span {
+    display: block;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .hidden1 {
+    visibility: hidden;
+  }
