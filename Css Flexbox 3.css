@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+}
+
+.item-left {
+    background-color: lightgrey;
+    padding: 10px;
+    flex: 50%;
+}
+
+.item-right {
+    background-color: grey;
+    padding: 10px;
+    flex: 50%;
+}
+
+
+@media (max-width: 800px) {
+
+    .item-right,
+    .item-left {
+        flex: 100%;
+    }
+}
