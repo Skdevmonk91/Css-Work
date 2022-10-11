@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Header */
+.header {
+    padding: 60px;
+    text-align: center;
+    background: aliceblue;
+    color: green;
+}
+
+/* top navigation bar */
+.navbar {
+    display: flex;
+    background-color: #333;
+}
+
+/*  navigation bar links */
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* For hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Column container */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Sidebar/left column */
+.side {
+    flex: 30%;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+/* Main column */
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Fake image for example */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .row,
+    .navbar {
+        flex-direction: column;
+    }
+}
