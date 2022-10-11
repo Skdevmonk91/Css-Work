@@ -1,0 +1,15 @@
+@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+    .example {
+      font-size: 50px;
+      padding: 50px;
+      border: 8px solid black;
+      background: Lightblue;
+      color: green;
+    }
+  }
+
+  @media print {
+    body {
+      color: black; 
+    }
+  }
