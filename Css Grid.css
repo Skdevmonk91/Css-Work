@@ -1,0 +1,47 @@
+/*container or main class to use in grid structure for whole page*/
+.container{
+ /* height: 900px;
+    width: 900px; */
+    display: grid;  /*to create grid structure in webpage*/
+    background-color: brown;
+    /* grid-template-columns: 150px 150px 150px; /*To add no of columns in simple way */
+    /* grid-template-rows: 150px 150px 150px; */ /*To add no of rows in simple way */
+    /* grid-template-columns: repeat(3,1fr); to add no of columns in advance way(fr=fraction)*/
+    /* grid-template-rows: repeat(4,1fr); to add no of rows in advance way(fr=fraction)*/
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr 50px;
+    row-gap: 10px;  /*To add gap between rows*/
+    column-gap: 10px; /*To add gap between columns*/
+    justify-items: center;
+}
+
+
+
+/*Basic item boxes*/
+.item{
+   /* height: 120px; */
+    width: 120px;
+    background-color: lightgrey;
+    color: rgba(245, 245, 245, 0.967);
+}
+
+
+
+/*To assign single value for space of multiple row or column*/
+.item1{
+   /* grid-column-start: 1;
+    grid-column-end: 4; */
+   grid-column: 1/span 3; /* Advance Way To Span Columns */
+    background-color: grey;
+    width: 100vw;
+}
+
+
+
+/*To add new footer*/
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: gray;
+    width: 100vw;
+}
