@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50vh;
+  border: 3px solid black;
+
+  /*Flex Direction Property For Items*/
+  /*flex-direction: row;  Default direction for items */
+  /* flex-direction: column;  To show the content column wise */
+  /* flex-direction: row-reverse; To show the content Row reverse wise */
+  /* flex-direction: column-reverse; To show the content column reverse wise */
+
+  /*Justify Content Property*/
+  /* justify-content: flex-start; Default Property*/
+  /* justify-content: flex-end;  To set content at end of flex */
+  /* justify-content: center; to set content at center*/
+
+  /*Align Item property*/
+  /*Uses same property like justify content*/
+  /*align-items: flex-start; */
+}
+
+.item {
+  background-color: tomato;
+  border: 2px solid black;
+  margin: 12px;
+  height: 100px;
+  width: 100px;
+}
+
+/*Order property use to set order the higher no it is later it will show up*/
+/*Flex grow property will grow item as given value default value is 1*/
+/*Flex shrink property will shrink item as given value and before other elements also default value is 1 */
+.item1 {
+  order: 4;
+  align-self: center;
+}
+
+.item2 {
+  order: 3;
+  /* flex-grow: 2; */
+}
+
+.item3 {
+  order: 2;
+  flex-shrink: 3;
+}
+
+.item4 {
+  order: 1;
+}
