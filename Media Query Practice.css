@@ -1,0 +1,58 @@
+.display {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: peru;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 300px) {
+  #tb1 {
+    display: block;
+    background-color: tomato;
+    color: lightcyan;
+    font-size: 30px;
+    font-family: "Courier New", Courier, monospace;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  #tb2 {
+    display: block;
+    background-color: green;
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  #tb3 {
+    display: block;
+    background-color: orangered;
+    color: burlywood;
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+  #tb4 {
+    display: block;
+    background-color: yellow;
+    color: black;
+    font-size: 60px;
+    font-family: Impact, "Arial Narrow Bold", sans-serif;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+  #tb5 {
+    display: block;
+    background-color: aliceblue;
+    color: green;
+    font-size: 75px;
+    font-family: Impact, "Arial Narrow Bold", sans-serif;
+  }
+}
