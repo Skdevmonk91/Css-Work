@@ -1,0 +1,45 @@
+.container {
+  border: 2px solid black;
+  background-color: aliceblue;
+  text-align: center;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+
+.display {
+  border: 3px solid grey;
+  background-color: peru;
+  height: 2440px;
+}
+
+/* example using absolute property 
+#box2 {
+  position: absolute;
+} 
+*/
+
+/* Relative Property allow us to use internal changing 
+position like top,bottom etc.*/
+/* It work from the same position to change 
+into different places*/
+/* Relative Property example
+#box3 {
+  position: relative;
+  bottom: 50px;
+  left: 40px;
+}
+*/
+
+/* Used for positon of box/any item for at a fixed place */
+#box1 {
+  position: fixed;
+  right: 4px;
+}
+
+/* Used to position element/item/bar to the stick place */
+#box4 {
+  position: sticky;
+  top: 3px;
+}
